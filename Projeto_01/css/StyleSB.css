@@ -1,0 +1,137 @@
+*{ /* Config gerais da pagina toda */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans"
+}
+html,body{ 
+	height: 100%;
+}
+
+@font-face{ /*Importação de fontes baixadas*/
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
+
+@font-face{/*Importação de fontes baixadas*/
+	src: url('../fonts/Charm-Regular.ttf');
+	font-family: "Charm";
+}
+
+/*Abaixo estilização do cabeçalho*/
+.header { /*Estilização da div Header*/
+	display: flex;
+	min-width: 1200px;
+	width: 100%;
+	height: 70px;
+	background-color: black;
+}
+
+.header h2{ /*Gambiarra hehe*/
+	color: white;
+	font-family: 'Charm';
+	margin-left: 0px;
+	margin-right: 550px;
+	font-size: 26px;
+	font-style: oblique;
+}
+
+.header a{ /*Formatação dos links p/ outras pgs INCOMPELTO!*/
+	color: white;
+	font-family: 'Charm';
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+.banner{
+ background-image: url(../images/fundoHD2.jpg);
+ /*background-repeat: no-repeat;*/
+}
+
+.flex{
+	display: flex;
+	/*height: 400px;*/
+}
+.flex img{
+	width: 200px;
+	height: 200px;
+	margin-left: 450px; /*90px perto do texto*/
+	margin-top: 15px; 
+	border-width: 4px;
+	border-style: solid;
+	border-radius: 6px;
+}
+.flex h2{
+	margin: 15px 10px 10px 30px;
+	width: 190px;
+	height: 50px;
+	padding-left: 10px;
+	border-left: solid 6px;
+	background-color: #A9A9A9;
+}
+.flex p{
+margin: 25px 0px;
+padding-left: 5px;
+flex-basis: 380px;
+text-align: justify;
+padding-right: 10px;
+border-right: solid 4px;
+border-left:solid 4px;
+background-color: #A9A9A9;
+font-size: 17px;
+
+}
+
+.conteudo p {
+	font-size: 20px;
+	padding: 0px 65px 10px 45px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	background-color: #A9A9A9 ;
+	border-left: solid 5px;
+	
+
+}
+.conteudo h3{/*AJEITAR BORDAAAAA*/
+	margin-top: 4px; /*fica 16px*/
+	margin-left: 1020px; /*710px*/
+	border-left: 8px solid black;
+	border-radius: 6px;
+	border-right: 8px solid black;
+	background-color: #A9A9A9;
+}
+.conteudo h2{
+	margin: 0px 10px 10px 20px;
+	background-color: #A9A9A9;
+	border-left: solid 6px;
+	padding-left: 5px;
+}
+.conteudo h4{
+	/*margin-bottom: 16px; /*fica 16px*/
+	margin-top: 4px;
+	margin-left: 60px;
+	border-left: 8px solid black;
+	border-radius: 6px;
+	border-right: 8px solid black;
+	background-color: #A9A9A9;
+	font-size: 17px;
+
+}
+
+
+/*Abaixo estilo do roda pé da pag.*/
+.footer{ /*Rodá pé da pag*/
+	/*clear:both;*/
+	border-top:2px solid #888888;
+	padding:10px 0;
+	text-align: center;
+	color: #888;
+	/*height: 80px;*/
+}
+.footer h3{
+	font-family: 'Open Sans';
+}
+.footer p{/*paragrafo do roda pé*/
+	margin-top:8px;
+	font-family: 'Open Sans';
+}

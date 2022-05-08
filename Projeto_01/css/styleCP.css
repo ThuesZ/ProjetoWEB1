@@ -1,0 +1,138 @@
+*{ /* Config gerais da pagina toda */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Charm"
+}
+html,body{ 
+	height: 100%;
+}
+@font-face{ /*Importação de fontes baixadas*/
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
+
+@font-face{/*Importação de fontes baixadas*/
+	src: url('../fonts/Charm-Regular.ttf');
+	font-family: "Charm";
+}
+
+.clear{
+	clear: both;
+}
+
+.header{ /*Estilização da div Header*/
+	display: flex;
+	min-width: 1200px;
+	width: 100%;
+	height: 70px;
+	background-color: black;
+}
+
+.header h2{ /*Gambiarra hehe*/
+	/*color: white;*/
+	color: #ff9900;
+	font-family: 'Charm';
+	margin-left: 0px;
+	margin-right: 550px;
+	font-size: 26px;
+	font-style: oblique;
+}
+
+.header a{ /*Formatação dos links p/ outras pgs INCOMPELTO!*/
+	color: #ff9900;
+	font-family: 'Charm';
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+.banner{
+	background-image: url(../images/oasis.jpg);
+	background-repeat:no-repeat ;
+	/*background-position: ;*/
+	/*background-attachment: ;*/
+	background-size: cover;
+	padding-bottom: 40px;
+
+
+}
+
+.banner h2{ /*Espaçamento do titulo*/
+	padding-left: 60px;
+	font-size: 32px;
+	font-style: oblique;
+	font-family: 'Charm';
+	color: #ff9900;
+}
+
+
+.form{  /*Fomatações da div que contem o form*/
+	width: 660px;
+	height:calc(100% + 30px) ;
+	border-width: 10px;
+	border-color: #ff9900;
+	border-style: inset;  /*outset inset dahed dotted*/;
+	margin-left: 480px;
+	margin-top: 20px;
+	background:#363636;
+	color:#ff9900;
+	border-radius: 20px;
+}
+
+.form form{ /*Display dos elementos dentro do form*/
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 20px;
+}
+
+/*Elementeos*/
+.Incluir{
+	margin: 10px 0px 0px 200px;
+}
+
+.nome{
+	margin: 0px 150px 20px 40px;
+	padding: 10px; /*TODOS OS LADOS*/
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.nação{
+	margin: 6px 15px 4px 45px ;
+	padding: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.Habilidades{ /*Não está como desejado!*/
+	height: 220px;
+	margin: 50px 40px 0px 100px;
+	padding: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.botão{ /*ESTILIZAR!!!!*/
+	margin: 10px 0px 10px 400px;
+
+}
+
+
+/*Abaixo estilo do roda pé da pag.*/
+.footer{ /*Rodá pé da pag*/
+	/*clear:both;*/
+	border-top:2px solid #888888;
+	padding:10px 0;
+	text-align: center;
+	color: #888;
+}
+.footer h3{
+	font-family: 'Open Sans';
+}
+.footer p{/*paragrafo do roda pé*/
+	margin-top:8px;
+	font-family: 'Open Sans';
+}
